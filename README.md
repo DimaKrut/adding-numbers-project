@@ -1,4 +1,4 @@
-###Basic Project
+###Adding Numbers Project
 #Java Application
 
 * JDK 7
