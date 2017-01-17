@@ -28,7 +28,7 @@ public class AppBasics {
 	static Scanner scanner = new Scanner(System.in);
 
 	public static void farewellMessage(String userName, String appName) {
-		System.out.println(" Thank you for using " + appName + " Have a great day," + userName);
+		System.out.println(" Thank you for using " + appName + "\n Have a great day, " + userName);
 
 	}
 
