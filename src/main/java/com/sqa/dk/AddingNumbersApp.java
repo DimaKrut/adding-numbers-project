@@ -40,16 +40,16 @@ public class AddingNumbersApp {
 	public static int[] getNumsFrmUsr(String usrName) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Let's get two integers to add!");
-		System.out.print("First addend: ");
+		System.out.print("First number to add: ");
 		int addend1Local = scanner.nextInt();
-		System.out.print("Next addend: ");
+		System.out.print("Second number to add: ");
 		int addend2Local = scanner.nextInt();
 		scanner.close();
 		int[] addends;
 		addends = new int[2];
 		addends[0] = addend1Local;
 		addends[1] = addend2Local;
-		System.out.println("Your input has been recorded.");
+		System.out.println("Your total from adding these two numbers is ");
 		return addends;
 	}
 
@@ -64,7 +64,7 @@ public class AddingNumbersApp {
 	}
 
 	public static void prntAddition(int addend1, int addend2, int sum) {
-		System.out.println("Here is your addition problem:\n" + // <br>
+		System.out.println("Here are the numbers you're adding:\n" + // <br>
 				"\n" + addend1 + " + " + addend2 + " = " + sum + "\n");
 	}
 
